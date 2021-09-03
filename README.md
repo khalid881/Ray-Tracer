@@ -1,1 +1,1 @@
-# Raytracer in Javascript 
+# Ray tracer in Javascript 
