@@ -6,8 +6,6 @@
   </p>
 </div>
 
-
-<!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 * [Ssloy's tinyraytracer](https://github.com/ssloy/tinyraytracer)
