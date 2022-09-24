@@ -1,4 +1,4 @@
-export default class Material{
+class Material{
     constructor(diffuseColor,specularExponent = 0,kd = 0,ks = 0,ka = 0,kr=0){
         this.diffuseColor = diffuseColor;
         this.specularExponent = specularExponent; 
@@ -10,3 +10,5 @@ export default class Material{
 
 
 }
+
+module.exports = Material;

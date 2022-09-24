@@ -1,0 +1,22 @@
+body{
+    background-color:#6b6c78;
+}
+.main-container{
+    padding-top: 2%;
+    display:flex;
+    flex-direction: column;
+  
+}
+
+.canvas-div{
+    display: flex;
+    justify-content: center;
+
+}
+
+.button-div{
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+

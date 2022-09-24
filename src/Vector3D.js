@@ -1,4 +1,4 @@
-export default class Vector3D{
+class Vector3D{
     constructor(x ,y ,z ){
         this.x = x;
         this.y = y;
@@ -70,7 +70,8 @@ export default class Vector3D{
 
     }
 
-    
 }
+
+module.exports = Vector3D;
 
 

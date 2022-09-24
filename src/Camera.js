@@ -1,6 +1,6 @@
-import Vector3D from "./Vector3D.js";
+const Vector3D = require('./Vector3D.js');
 
-export default class Camera{
+class Camera{
     constructor(){
         this.cameraPosition = new Vector3D(); 
         this.imagePlaneDist = 0;
@@ -21,3 +21,5 @@ export default class Camera{
     }
 
 }
+
+module.exports = Camera;

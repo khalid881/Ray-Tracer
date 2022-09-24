@@ -1,0 +1,20 @@
+{
+  "name": "raytracerjs",
+  "version": "1.0.0",
+  "description": "Ray tracer made in Javascript",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack ./src/Raytracer.js"
+  },
+  "keywords": [],
+  "author": "khalid881",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khalid881/RaytracerJS/issues"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

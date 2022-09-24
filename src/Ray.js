@@ -1,6 +1,6 @@
-import Vector3D from "./Vector3D.js";
+const Vector3D = require('./Vector3D.js');
 
-export default class Ray{
+class Ray{
 
     constructor(origin, direction ){
         this.origin = origin;
@@ -8,3 +8,5 @@ export default class Ray{
 
     }
 }
+
+module.exports = Ray;

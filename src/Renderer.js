@@ -1,8 +1,8 @@
-import Vector3D from "./Vector3D.js";
-import Ray from "./Ray.js";
-import Scene from "./Scene.js";
+const Vector3D = require('./Vector3D.js');
+const Ray = require('./Ray.js');
+const Scene = require('./Scene.js');
 
-export default class Renderer{
+class Renderer{
     constructor(canvas){
         this.scene = new Scene();
         this.canvas = canvas;
@@ -271,3 +271,5 @@ export default class Renderer{
 
     }
 }
+
+module.exports = Renderer;

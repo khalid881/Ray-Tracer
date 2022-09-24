@@ -1,10 +1,14 @@
-import Sphere from "./Sphere.js";
-import Vector3D from "./Vector3D.js";
-import PointLight from "./PointLight.js";
-import Renderer from "./Renderer.js";
-import Material from "./Material.js";
+const Sphere = require('./Sphere.js');
+const Vector3D = require('./Vector3D.js');
+const PointLight = require('./PointLight.js');
+const Renderer = require('./Renderer.js');
+const Material = require('./Material.js');
 
 const  canvas = document.getElementById('canvas');
+const ctx = canvas.getContext("2d");
+ctx.fillStyle = "black";
+ctx.fillRect(0, 0, canvas.width, canvas.height);
+
 const  renderer = new Renderer(canvas);
 
 function initTinyRayTracerScene(){
@@ -48,14 +52,19 @@ function initTinyRayTracerScene(){
     renderer.scene.addLight(light3);
     renderer.scene.ambient.setIntensity(0);
 
-    // renderer options
+    // rendering options
     renderer.enableShadows(true);
     renderer.setMaxReflectionDepth(4);
     renderer.enableAA(true);
    
 }
-
 initTinyRayTracerScene();
-renderer.render();
+
+function start(){
+    renderer.render();
+}
+
+window.start=start;
+
 
 

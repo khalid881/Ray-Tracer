@@ -1,4 +1,4 @@
-export default class AmbientLight{
+class AmbientLight{
     constructor(){
         this.intensity = 0;
         
@@ -9,3 +9,5 @@ export default class AmbientLight{
 
     }
 }
+
+module.exports = AmbientLight

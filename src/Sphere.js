@@ -1,6 +1,6 @@
-import Vector3D from "./Vector3D.js";
+const Vector3D = require('./Vector3D.js');
 
-export default class Sphere {
+class Sphere {
     constructor(center = new Vector3D(),radius,material){
         this.center = center;
         this.radius = radius;
@@ -35,3 +35,5 @@ export default class Sphere {
     }
 
 }
+
+module.exports = Sphere;

@@ -1,8 +1,8 @@
-import AmbientLight from "./AmbientLight.js";
-import Camera from "./Camera.js";
-import Vector3D from "./Vector3D.js";
+const AmbientLight = require('./AmbientLight.js');
+const Camera = require('./Camera.js');
+const Vector3D = require('./Vector3D.js');
 
-export default class Scene{
+class Scene{
 
     constructor(){
         this.objects = [];
@@ -28,3 +28,5 @@ export default class Scene{
     }
 
 }
+
+module.exports = Scene;

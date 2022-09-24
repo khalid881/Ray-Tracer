@@ -1,6 +1,6 @@
-import Vector3D from "./Vector3D.js";
+const Vector3D = require('./Vector3D.js');
 
-export default class PointLight {
+class PointLight {
     constructor(position, intensity){
         this.position = position; 
         this.intensity = intensity;
@@ -13,3 +13,5 @@ export default class PointLight {
     }
 
 }
+
+module.exports = PointLight;
